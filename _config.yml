@@ -2,8 +2,8 @@
 # Site Settings
 # -----------------------------------------------------------------------------
 
-name: Otilia Stretcu
-email: otiliastr@gmail.com
+name: Haiyan Wang
+email: h.y.wang@vu.nl
 
 # footer_text: >
 #   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -16,11 +16,12 @@ baseurl:  # the subpath of your site, e.g. /blog/
 # -----------------------------------------------------------------------------
 # Social Integration
 # -----------------------------------------------------------------------------
-scholar_userid: UcT4CXoAAAAJ
-github_username: otiliastr
-linkedin_username: otiliastr
-facebook_username: otilia.stretcu
-twitter_username: otilia_stretcu
+scholar_userid: 0VDqH5cAAAAJ
+research_gate: 
+github_username: HaiyanWang90
+linkedin_username: 412a96b2
+facebook_username: 
+twitter_username: haiyan_wang_
 contact_note: Feel free to drop me a line via e-mail.
 
 
@@ -53,11 +54,11 @@ contact_note: Feel free to drop me a line via e-mail.
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
-collections:
+Collections:
   news:
     defaults:
       layout: page
-    output: true
+    output: false
     permalink: /news/:path/
   projects:
     output: true
