@@ -4,7 +4,7 @@ permalink: /
 title: about
 nav: about
 
-<!--description: <a href="https://ai.google/" target="_blank">Google AI</a> -->
+<!--description: <a href="https://https://vu.nl/en" target="_blank">Vrije Universiteit Amsterdam, NL</a> -->
 
 ---
 
