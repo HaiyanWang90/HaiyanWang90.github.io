@@ -4,7 +4,7 @@ permalink: /
 title: about
 nav: about
 
-<!--description: <a href="https://https://vu.nl/en" target="_blank">Vrije Universiteit Amsterdam, NL</a> -->
+<!--description: <a href="https://https://vu.nl/en">Vrije Universiteit Amsterdam, NL</a> -->
 
 ---
 
@@ -25,41 +25,14 @@ nav: about
         </div>
 
         <p>
-            I am a PhD candidate at the <a href="[https://vu.nl/en/about-vu/faculties/faculty-of-behavioural-and-movement-sciences/departments/experimental-and-applied-psychology]" target="_blank">Department of Experimental and Applied Psychology</a> .
+            I am a PhD candidate at the <a href="[https://vu.nl/en/about-vu/faculties/faculty-of-behavioural-and-movement-sciences/departments/experimental-and-applied-psychology]">Department of Experimental and Applied Psychology</a>. During my PhD, my research mainly focuses on conspiracy beliefs. I am interested in why people believe in conspiracy theories and the consequences of believing in conspiracy theories. In addition to conspiracy beliefs, I am also interested in misinformation. I was funded to visit the <a href="[https://www.sdmlab.psychol.cam.ac.uk/]"> Cambridge Social Decision-Making Lab</a>. 
         </p>
         
         <p>
-            Previously, I was a PhD student in the <a href="http://www.ml.cmu.edu/" target="_blank">Machine Learning Department</a> at <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>, co-advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank">Tom Mitchell</a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank">Barnabàs Pòczos</a>.
-            My PhD research focused on developing algorithms for machine learning, mainly focused on semi-supervised learning, curriculum learning, multitask learning, and graph-based problems.
-            I am also passionate about applying machine learning methods in neuroscience, in order to study how the brain understands language and controls speech.
-            Previously, I did some research in Computer Vision, with the goal of detecting and tracking objects in videos.
+           I have a multidisciplinary background. I studied criminal psychology for my master's program, and as an exchange student, I studied criminal law at Soochow Univerisity in Taipei. I also have a passion for understanding why people crimes and how to prevent crime. 
         </p>
     </div>
 </div>
 
-<div class="col text-justify p-0">
-    <p>
-        Before I joined CMU, I graduated with an <a href="https://www.cst.cam.ac.uk/admissions/acs" target="_blank">M.Phil. in Advanced Computer Science</a>
-        from the <a href="https://www.cam.ac.uk/" target="_blank">University of Cambridge</a>, UK.
-        In my Master's thesis I used Machine Learning methods to detect and align chromosomes in microscope images,
-        advised by <a href="https://www.cl.cam.ac.uk/~pl219/" target="_blank">Pietro Lió</a>.
-    </p>
-</div>
+  
 
-<!-- News -->
-<div class="news mt-3 p-0">
-  <h1 class="title mb-4 p-0">news</h1>
-  {% assign news = site.news | reverse %}
-  {% for item in news limit: site.news_limit %}
-    <div class="row p-0">
-      <div class="col-sm-2 p-0">
-        <span class="badge light-green darken-1 font-weight-bold text-uppercase align-middle date ml-3">
-          {{ item.date | date: "%b %-d, %Y" }}
-        </span>
-      </div>
-      <div class="col-sm-10 mt-2 mt-sm-0 ml-3 ml-md-0 p-0 font-weight-light text">
-        <p>{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</p>
-      </div>
-    </div>
-  {% endfor %}
-</div>
